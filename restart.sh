@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nginx -p `pwd` -s stop
+nginx -p `pwd`/nginx -s stop
 sleep 1
-nginx -p `pwd`
+nginx -p `pwd`/nginx
 
